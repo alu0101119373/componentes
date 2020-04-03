@@ -5,8 +5,9 @@ información está disponible en formato Google Sheets, pudiendo ser bastante co
 se pretende buscar cierto componente o cierta información al respecto.
 
 ## Pre-requisitos
-Se requiere Python 3.6.9 o superior y pip3, que se puede instalar con:
-```bash
+Se requiere Python 3.6.9 o superior y pip3, que se pueden instalar con:
+```shell
+$ sudo apt-get install python3
 $ sudo apt-get install python3-pip
 ```
 
@@ -14,12 +15,12 @@ $ sudo apt-get install python3-pip
 Pasos para la instalación del software:
 
 1. Clonar repositorio.
-```bash
+```shell
 $ git clone https://github.com/alu0101119373/componentes.git
 ```
 
 2. Instalar las dependencias del proyecto.
-```bash
+```shell
 $ pip3 install -r requirements.txt
 ```
 
