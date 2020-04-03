@@ -26,6 +26,14 @@ $ pip3 install -r requirements.txt
 
 El software ya está listo para trabajar.
 
+## Inicializar el servidor
+
+Dando por hecho que tienes Daphne instalado, puedes arrancar la web con el siguiente comando.
+
+```bash
+daphne componentes.asgi:application
+```
+
 ## Ejecución de las pruebas
 Por el momento no se dispone de pruebas.
 
